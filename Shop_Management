@@ -25,7 +25,7 @@ for i in cur:
     print(i)
 
 
-# cur.execute("use database {}".format(aaa))
+# cur.execute("use {}".format(aaa))
 cur.execute("use shop")
 
 
