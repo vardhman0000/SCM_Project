@@ -1,9 +1,9 @@
-# aaa=input("Enter the name of Database : ")
-aaa = "shop"
+aaa=input("Enter the name of Database : ")
 from tabulate import tabulate
 
 import mysql.connector
-# mydb=mysql.connector.connect(host="localhost", user="root", passwd=" ")
+pass = input("Enter Password : )
+# mydb=mysql.connector.connect(host="localhost", user="root", passwd="pass")
 # cur=mydb.cursor()
 
 # cur.execute("Create database {}".format(aaa))
